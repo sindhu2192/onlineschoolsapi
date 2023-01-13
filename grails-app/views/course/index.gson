@@ -1,0 +1,8 @@
+import org.management.Course
+
+model {
+	Iterable<Course> courseList
+}
+
+json tmpl.course(courseList ?: [])
+
