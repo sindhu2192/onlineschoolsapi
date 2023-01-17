@@ -1,0 +1,8 @@
+import org.management.Enquiry
+
+model {
+	Iterable<Enquiry> enquiryList
+}
+
+json tmpl.enquiry(enquiryList ?: [])
+

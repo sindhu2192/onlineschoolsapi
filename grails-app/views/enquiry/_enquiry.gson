@@ -1,0 +1,7 @@
+import org.management.Enquiry
+
+model {
+	Enquiry enquiry
+}
+
+json g.render(enquiry, [resolveTemplate: false])
